@@ -1,7 +1,7 @@
 {
   "name": "thejameslang-homepage",
   "version": "1.0.0",
-  "description": "thejameslang's website",
+  "description": "James's website",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",
