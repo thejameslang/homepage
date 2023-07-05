@@ -1,14 +1,16 @@
 {
-  "name": "homepage",
+  "name": "thejameslang-homepage",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "thejameslang's website",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "prettier": "prettier -write .",
+    "lint": "next lint"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "James Lang<hi@thejameslang.com>",
+  "license": "MIT",
   "dependencies": {
     "@chakra-ui/react": "^2.7.1",
     "@emotion/react": "^11.11.1",
