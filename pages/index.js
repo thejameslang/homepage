@@ -112,7 +112,7 @@ const Page = () => {
           </Link>
           , Touge (
           <Link href="https://youtu.be/WnSDuSxofJs" target="_blank">
-            Kansei Dorifto
+            K-Kansei Dorifto???
           </Link>
           ),{' '}
           <Link
