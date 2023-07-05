@@ -1,11 +1,15 @@
+import NextLink from 'next/link'
 import {
   Container,
   Box,
   Heading,
   Image,
-  useColorModeValue
+  useColorModeValue,
+  Button
 } from '@chakra-ui/react'
+import { ChevronRightIcon } from '@chakra-ui/icons'
 import Section from '../components/section'
+import Paragraph from '../components/paragraph'
 
 const Page = () => {
   return (
@@ -49,7 +53,20 @@ const Page = () => {
         <Heading as="h3" variant="section-title">
           Work
         </Heading>
-        <p>Paragraph</p>
+        <Paragraph>
+          As a full-stack developer and freelancer based in Dallas, I enjoy
+          creating digital solutions for intriguing challenges. I have a knack
+          for launching products, from planning and designing to coding and
+          problem-solving. When I&apos;m offline, I love tickling the ivories.
+          I&apos;m currently looking for opportunities in software engineering.
+        </Paragraph>
+        <Box align="center" my={4}>
+          <NextLink href="/works">
+            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+              My portfolio
+            </Button>
+          </NextLink>
+        </Box>
       </Section>
     </Container>
   )
