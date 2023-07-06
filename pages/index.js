@@ -63,11 +63,15 @@ const Page = () => {
           I&apos;m currently looking for opportunities in software engineering.
         </Paragraph>
         <Box align="center" my={4}>
-          <NextLink href="/works">
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              My portfolio
-            </Button>
-          </NextLink>
+          <Button
+            as={NextLink}
+            href="/works"
+            scroll={false}
+            rightIcon={<ChevronRightIcon />}
+            colorScheme="teal"
+          >
+            My portfolio
+          </Button>
         </Box>
       </Section>
       <Section delay={0.2}>
