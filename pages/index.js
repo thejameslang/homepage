@@ -83,8 +83,8 @@ const Page = () => {
           </Heading>
           <BioSection>
             <BioYear>2005</BioYear>
-            Completed the Music program of the Pennsylvania Governor's School
-            for the Arts
+            Completed the Music program of the Pennsylvania Governor&apos;s
+            School for the Arts
           </BioSection>
           <BioSection>
             <BioYear>2013</BioYear>

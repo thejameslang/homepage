@@ -22,7 +22,7 @@ const Works = () => {
               title="Capital One Home Equity"
               thumbnail={thumbCapitalOne}
             >
-              Front end for Capital One's home equity offerings:
+              Front end for Capital One&apos;s home equity offerings:
               prequalification process, home equity loans and home equity lines
               of credit
             </WorkGridItem>
