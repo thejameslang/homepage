@@ -1,10 +1,11 @@
-import { ChakraProvider } from '@chakra-ui/react'
-import Layout from '../components/layouts/main'
-import Fonts from '../components/fonts'
-import theme from '../lib/theme'
-import { AnimatePresence } from 'framer-motion'
+// import { ChakraProvider } from '@chakra-ui/react'
+// import Layout from '../components/layouts/main'
+// import Fonts from '../components/fonts'
+// import theme from '../lib/theme'
+// import { AnimatePresence } from 'framer-motion'
 
-const Website = ({ Component, pageProps, router }) => {
+// const Website = ({ Component, pageProps, router }) => {
+const Website = () => {
   return (
     // <ChakraProvider theme={theme}>
     //   <Fonts />
