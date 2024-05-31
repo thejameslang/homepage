@@ -7,15 +7,14 @@
 // const Website = ({ Component, pageProps, router }) => {
 const Website = () => {
   return (
-    // <ChakraProvider theme={theme}>
-    //   <Fonts />
-    //   <Layout router={router}>
-    //     <AnimatePresence mode="wait" initial={true}>
-    //       <Component {...pageProps} key={router.route} />
-    //     </AnimatePresence>
-    //   </Layout>
-    // </ChakraProvider>
-    <div>Under maintenance</div>
+    <ChakraProvider theme={theme}>
+      <Fonts />
+      <Layout router={router}>
+        <AnimatePresence mode="wait" initial={true}>
+          <Component {...pageProps} key={router.route} />
+        </AnimatePresence>
+      </Layout>
+    </ChakraProvider>
   )
 }
 
